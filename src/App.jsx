@@ -12,7 +12,7 @@ const SEED_PACKAGES = [
   { id: "p6", uc: 8100, price: 1380000, popular: false, active: true },
 ];
 
-const ADMIN_PASS = "zarba2026";
+const ADMIN_PASS = "alisherbek20134";
 
 function fmt(n) {
   return (n || 0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
