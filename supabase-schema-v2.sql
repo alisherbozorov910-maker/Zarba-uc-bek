@@ -84,8 +84,8 @@ create extension if not exists pg_net;
 create or replace function notify_telegram(msg text)
 returns void as $$
 declare
-  bot_token text := 'BOT_TOKEN_BU_YERGA';
-  chat_id text := 'CHAT_ID_BU_YERGA';
+  bot_token text := '8874133265:AAFyruQl0OKPKoxBF24WbGhrRXH47oFoMco';
+  chat_id text := '8973435388';
 begin
   perform net.http_post(
     url := 'https://api.telegram.org/bot' || bot_token || '/sendMessage',
